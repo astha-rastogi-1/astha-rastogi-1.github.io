@@ -9,6 +9,7 @@ article_header:
 ---
 <div class="layout--landing">
   <div class="heros">
+  <!-- The big section with the image  -->
   {%- for _section in page.data.sections -%}
     {%- include snippets/get-nav-url.html path=_section.background_image.src -%}
     {%- assign _url = __return -%}
@@ -26,6 +27,7 @@ article_header:
     {%- endif -%}
 
         <div class="hero__content">
+        <!-- Content of the big section  -->
           <div class="mb-5">
 
             <h3>{{ _section.title }}</h3>

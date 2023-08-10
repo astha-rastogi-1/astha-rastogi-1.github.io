@@ -1,7 +1,7 @@
 header:
-  - title: Home
-    url: /newhome.html
+  - title: About
+    url: /about.html
   - title: Resume
     url: /resume.pdf
-  - title: Projects
-    url: /projects.html
+  # - title: Projects
+  #   url: /projects.md

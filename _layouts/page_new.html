@@ -122,8 +122,8 @@ layout: base
               {%- assign _header_style = _header_style | append: 'min-height:' | append: _article_header_height | append: ';' -%}
             {%- endif -%}
 
+            <!-- Article Header  -->
             <div class="article__header--overlay">
-
             {%- if _article_header_theme == 'light' -%}
               {%- if _article_header_align == 'center' -%}
                 <div class="hero hero--center hero--light overlay" style="{{ _header_style }}">
@@ -143,14 +143,15 @@ layout: base
                 <div class="hero overlay" style="{{ _header_style }}">
               {%- endif -%}
             {%- endif -%}
-                <div class="hero__content">
+                <div class="hero__content" style="padding: 0">
+                  <img title="a title" alt="Alt text" src="../Astha_profile.jpg" style="border-radius: 50%; height: 150px; width: 150px;">
                   {%- if _full_width == false -%}
                     <div class ="main">
                   {%- endif -%}
                     {%- include article-info.html article=page semantic=false -%}
-                    {%- include article-header.html article=page semantic=false -%}
+                    {%- include article-header_landing.html article=page semantic=false -%}
                     {%- if page.excerpt -%}
-                      <p class="overlay__excerpt">{{ page.excerpt | strip_html | strip_newlines | strip | truncate: _article_header_excerpt_truncate }}</p>
+                      <p class="overlay__excerpt" style="font-size: 24px;">{{ page.excerpt | strip_html | strip_newlines | strip | truncate: _article_header_excerpt_truncate }}</p>
                     {%- endif -%}
                     {%- if page.article_header.actions -%}
                       <ul class="menu">
@@ -162,6 +163,8 @@ layout: base
                         {%- endfor -%}
                       </ul>
                     {%- endif -%}
+                    <!-- Footer  -->
+                    <div class="page__footer d-print-none" style="margin: -20px;">{%- include footer_landing.html -%}</div>
                   {%- if _full_width == false -%}
                     </div>
                   {%- endif -%}
@@ -180,47 +183,7 @@ layout: base
 
 
         {%- if _full_width == false -%}
-          <div class ="main">
-        {%- endif -%}
-            <div class="grid grid--reverse">
 
-              <div class="col-aside d-print-none js-col-aside">
-                {%- if page.aside -%}
-                  <aside class="page__aside js-page-aside">
-                    {%- include aside/toc.html -%}
-                  </aside>
-                {%- endif -%}
-              </div>
-
-              <div class="col-main cell cell--auto">
-                {%- include main/top/custom.html -%}
-                {%- if _page_type == 'article' -%}
-                  <article itemscope itemtype="http://schema.org/Article">
-                {%- elsif _page_type == 'webpage' -%}
-                  <article itemscope itemtype="http://schema.org/WebPage">
-                {%- else -%}
-                  <article>
-                {%- endif -%}
-
-                {%- if _article_header_type == 'overlay' or page.article_header == false -%}
-                  {%- include article-header.html article=page html=false -%}
-                  {%- include article-info.html article=page html=false -%}
-                {%- else -%}
-                  {%- include article-header.html article=page -%}
-                  {%- include article-info.html article=page -%}
-                {%- endif -%}
-
-                    <div class="js-article-content">{{ content }}</div>
-                    {%- if _comment != false -%}
-                      <section class="page__comments d-print-none">{%- include comments.html -%}</section>
-                    {%- endif -%}
-                </article>
-                {%- include main/bottom/custom.html -%}
-              </div>
-            </div>
-
-        {%- if _full_width == false -%}
-          </div>
         {%- endif -%}
         </div>
 
