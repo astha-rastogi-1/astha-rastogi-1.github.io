@@ -1,6 +1,5 @@
 ---
 layout: article
-# title: About Me
 key: page-about
 ---
 ### About Me
