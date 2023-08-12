@@ -1,8 +1,8 @@
 ---
 layout: article
+title: About Me
 key: page-about
 ---
-### About Me
 <div style="display: grid; grid-template-columns: 70% 30%">
     <div>
         Hello there! I'm Astha Rastogi—a passionate software engineer with a rich background in both machine learning and full stack development. As a proud graduate of BITS Pilani (Pilani Campus) with a Bachelor's degree in Electronics and Instrumentation Engineering earned in 2022, I'm currently on the lookout for exciting opportunities in the realm of software development.
