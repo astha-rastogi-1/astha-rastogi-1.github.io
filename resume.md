@@ -1,0 +1,402 @@
+---
+layout: page
+# sidebar:
+#   nav: docs-en
+---
+<style>
+    body {
+        text-align: justify;
+        color: #4a5044;
+    }
+    h1 {
+        color: #4a5044;
+        text-decoration: underline;
+        text-underline-offset: 10px
+        /* border: 1px solid red; */
+    }
+    .subheading-split{
+        display:flex;
+        justify-content: space-between;
+        color: #4a5044;
+        font-size: 18px;
+    }
+    .subheading-split-left-first {
+        font-size: 23px;
+        font-weight: 700;
+        margin: 0px;
+        padding: 0px;
+        /* border:1px solid black; */
+    }
+    .subheading-split-right-first {
+        font-size: 23px;
+        font-weight: 400;
+        margin: 0px;
+        padding: 0px;
+    }
+    .content-list {
+        margin-left:40px;
+    }
+    .courses-list {
+        margin-left: 20px;
+        font-size: 18px;
+        color: #4a5044;
+    }
+    .bold-skills-content {
+        color: #4a5044;
+        font-weight: 400;
+    }
+    .bold-skills-content b {
+        font-weight: 700;
+    }
+</style>
+# Resume
+View Full Resume PDF: [Here](/resume.pdf)
+<body>
+
+
+<h1>Education</h1>
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Birla Institute of Technology and Science, Pilani</p>
+      <i>B.E. Electronics and Instrumentation</i>
+    </div>
+    <div style="text-align:right;">
+      <p class="subheading-split-right-first">Pilani, India</p>
+      <i>08/2018 - 05/2022</i>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Graduated First Division</li>
+    <li>Relevant Coursework: Computer Programming, Discrete Mathematics, Machine Learning, Object Oriented Programming, Data Structures and Algorithms, Optimization,
+      Neural Networks and Fuzzy Logic, Digital Image Processing
+    </li>
+  </ul>
+
+<h1>Work Experience</h1>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Aalto University</p>
+      <i>Full Stack Developer</i>
+    </div>
+    <div style="text-align:right;">
+      <p class="subheading-split-right-first">Helsinki, Finland</p>
+      <i>06/2022 - 04/2023</i>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Supervisors: <a href="https://users.aalto.fi/~oulasvir/">Prof. Antti Oulasvirta</a>, <a href="https://www.linkedin.com/in/mukeshisrani/?originalSubdomain=fi">Mukesh Israni</a>
+    </li>
+    <li>Developed and transformed user interface research into a
+        market-ready industrial product, enabling designers to
+        collaborate and co-design with an automated tool.
+    </li>
+    <li>Implemented end-to-end model creation as a full-stack
+        developer using technologies like ReactJS, Typescript,
+        Google Protocol Buffers, and Python.
+    </li>
+    <li>Conducted in-depth research on machine learning
+        models used as the foundation for the product, gaining
+        valuable insights into their functionality and application.
+    </li>
+    <li>Adapted quickly to changing requirements and priorities,
+        displaying flexibility and resourcefulness in a fast-paced,
+        early-stage startup.
+    </li>
+    <li class="bold-skills-content"><b>Skills: </b> <i>ReactJS, Django, Git, FigmaAPI, Docker, Google Protocol Buffers, Kubernetes, Python</i>
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Incampus Ltd.</p>
+      <i>Machine Learning Intern</i>
+    </div>
+    <div style="text-align:right;">
+      <p class="subheading-split-right-first">Delhi, India</p>
+      <i>08/2020 - 09/2020</i>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Developed a robust content-based recommendation system from the ground up.</li>
+    <li>Gained proficiency in utilizing machine learning and
+        natural language processing techniques.
+    </li>
+    <li class="bold-skills-content"><b>Skills: </b> <i>Recommendation systems, Flask, Python</i>
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Rajashree Cement Works</p>
+      <i>Automation Intern</i>
+    </div>
+    <div style="text-align:right;">
+      <p class="subheading-split-right-first">Karnataka, India</p>
+      <i>05/2020 - 06/2020</i>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Collaborated on the automation of a drainage system for the Industrial Automation and Control Sector of Rajshree Cement Works, gaining hands-on experience in implementing PLCs (Programmable Logic Controllers).
+    </li>
+    <li>Developed a deep understanding of PLC programming languages, such as ladder logic and structured text, to effectively automate the drainage system.
+    </li>
+    <li class="bold-skills-content"><b>Skills: </b> <i>PLC Design</i>
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Bharti Airtel Ltd.</p>
+      <i>Web Development Intern</i>
+    </div>
+    <div style="text-align:right;">
+      <p class="subheading-split-right-first">Gurgaon, India</p>
+      <i>05/2019 - 07/2019</i>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Honed skills in full-stack web development utilizing
+        technologies such as HTML, CSS, JavaScript, AngularJS,
+        NodeJS, and MySQL through successful delivery of the
+        project.
+    </li>
+    <li>Gained valuable insights into corporate culture, fostering
+        a strong understanding of professionalism and
+        teamwork.
+    </li>
+    <li class="bold-skills-content"><b>Skills: </b> <i>HTML, CSS, JavaScript, AngularJS, NodeJS, MySQL</i>
+    </li>
+  </ul>
+
+<h1>Projects</h1>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Machine Learning Based Event Extraction from
+        Unstructured Data</p>
+      <i>Bachelor's Thesis</i>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Supervisors: <a href="https://www.bits-pilani.ac.in/pilani/surekha-bhanot/">Prof. Surekha Bhanot</a>, <a href="https://personalpages.manchester.ac.uk/staff/riza.batista/">Dr. Riza Batista-Navarro</a>
+    </li>
+    <li>Utilized Interactive Machine Learning and Machine
+        Reading Comprehension techniques to develop an
+        innovative model at the University of Manchester.
+    </li>
+    <li>Created a system that extracts events from unstructured
+        online data using a semi-supervised approach, generating
+        machine-readable event templates without pre-existing
+        annotations.
+    </li>
+    <li>Trained the model to ask relevant questions, improving
+        its accuracy in structuring event information.
+    </li>
+    <li>Inculcated strong research, problem-solving, and critical
+        thinking skills through collaborative work with academic
+        mentors and experts, enhancing communication,
+        teamwork, and model design abilities.
+    </li>
+    <li><a href="https://github.com/astha-rastogi-1/Event-Extraction-from-Cooking-Data">Github</a>
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Vision Transformers for EEG-Based Emotion Recognition</p>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Led a two-member team in creating a modified vision
+        transformer, classifying emotions using EEG signals.
+        Collaborated to design and implement a robust model
+        architecture, surpassing state-of-the-art performance.
+    </li>
+    <li>Acquired experience in conducting independent research,
+        designing experiments, and interpreting results in an
+        academic setting.
+    </li>
+    <li><a href="https://github.com/astha-rastogi-1/C-former">Github</a>
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Book Recommendation System</p>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Created a model that takes a book title as input, calculates similarity scores between that book and all other books, and returns the top 20 most similar book titles and authors.
+    </li>
+    <li>Performed TF-IDF(Term Frequency-Inverse Document Frequency) vectorization using a custom analyzer with word and bi-gram (1-2 word) features, ignoring stopwords, and considering all words.
+    </li>
+    <li>Calculated cosine similarity between the TF-IDF vectors, creating a similarity matrix.
+    </li>
+    <li><a href="https://github.com/astha-rastogi-1/Book-Recommendation-System">Github</a>
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">LoFi Beats Generator</p>
+    </div>
+  </div>
+  <ul class="content-list">
+    <!-- <li>The primary goal of the project is to leverage deep learning techniques to generate music compositions automatically by analyzing a dataset of MIDI files, extracting musical elements, and using them as training data for the neural network.
+    </li>
+    <li>Prepared the data by extracting musical notes and chords from chord progressions, and preprocessed them to be compatible with the model consisting of multiple LSTM layers, dropout, batch normalization and dense layers.
+    </li> -->
+    <li>Leveraged deep learning for automatic music composition generation by analyzing MIDI datasets.
+    </li>
+    <li>Extracted musical notes and chords from chord progressions for model training.
+    </li>
+    <li>Transformed and preprocessed data to suit a model with LSTM layers, dropout, batch normalization, and dense layers.
+    </li>
+    <li><a href="https://github.com/astha-rastogi-1/lofi-beats">Github</a></li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">One-Shot Instance Segmentation</p>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Conducted research as part of coursework to develop expertise in one-shot instance segmentation, employing Siamese Networks and other advanced concepts.
+    </li>
+    <li>Utilized Siamese Networks, FPNs, and ResNet-50 models to implement a system capable of identifying image categories with just a single reference image.
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Explainable Model for Autonomous Driving</p>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Conducted coursework involving the simulation of research results in the field of autonomous driving.
+    </li>
+    <li>Focused on achieving explainability within autonomous systems, utilizing the BDDX dataset and semantic segmentation techniques.
+    </li>
+    <li>Employed Convolutional Neural Networks (CNNs) and visual attention maps to enhance the vehicle's decision-making process
+    </li>
+  </ul>
+
+
+<h1>Skills</h1>
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Languages</p>
+      Python, C, C++, JavaScript, TypeScript,
+        MATLAB, HTML, CSS, MySQL
+    </div>
+  </div>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Frameworks</p>
+      Django, Flask, AngularJS, SQL, PyTorch
+    </div>
+  </div>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Libraries</p>
+      React, Keras, TensorFlow, NumPy, Pandas, Scikit-Learn, MatplotLib
+    </div>
+  </div>
+
+  <div class="subheading-split">
+    <div style="text-align: left;">
+      <p class="subheading-split-left-first">Concepts</p>
+      Machine Learning, Neural Networks, Computer
+        Vision, Natural Language Processing, Front-end Development, Full-Stack Development
+    </div>
+  </div>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Soft Skills</p>
+      Critical Thinking, Problem Solving, Attention to
+        Detail, Adaptability, Time Management
+    </div>
+  </div>
+
+<h1>Courses</h1>
+  <ul class="courses-list">
+    <li>
+        <p class="subheading-split-left-first">
+            Introduction to AI and IoT
+        </p>
+        <i>IIT Kanpur</i>
+    </li>
+    <li>
+        <p class="subheading-split-left-first">
+            Neural Networks and Deep Learning
+        </p>
+        <i>deeplearning.ai</i>
+    </li>
+    <li>
+        <p class="subheading-split-left-first">
+            Scalable Machine Learning with Apache Spark
+        </p>
+        <i>Databricks</i>
+    </li>
+    <li>
+        <p class="subheading-split-left-first">
+            Machine Learning in Production
+        </p>
+        <i>Databricks</i>
+    </li>
+    <li>
+        <p class="subheading-split-left-first">
+            LangChain-Develop LLM Powered Applications with LangChain
+        </p>
+        <i>Udemy</i>
+    </li>
+    <li>
+        <p class="subheading-split-left-first">
+            Data Science, Machine Learning, and Data Anyalysis with Python
+        </p>
+        <i>Udemy</i>
+    </li>
+  </ul>
+
+<h1>Extra-Curriculars</h1>
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Collegiate Swim Team</p>
+      <i>Vice Captain</i>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Actively contributed to the collegiate swim team, participating in both intra-college and inter-college swim events.
+    </li>
+    <li>Demonstrated exceptional dedication and skill, resulting in multiple medal wins during competitive swim meets.
+    </li>
+    <li>Elected as Vice Captain, showcasing leadership and teamwork abilities.
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Department of Photography</p>
+    </div>
+  </div>
+  <ul class="content-list">
+    <!-- <li>Captured and covered college festivals
+        through aesthetic and portrait photography.
+        Led merchandise creation, design, and sales
+        using the content to raise funds during the
+        events.
+    </li> -->
+    <li>Played a pivotal role in the college's Department of Photography, contributing to various aspects of the department's activities.
+    </li>
+    <li>Successfully generated revenue for the college fest by capturing and selling portrait photographs of fest attendees.
+    </li>
+    <li>Took charge of merchandise design responsibilities for a year, enhancing the departments's branding and overall visual identity.
+    </li>
+    <li>Assumed the role of teaching junior members how to effectively use PhotoShop, facilitating their growth and skill development.
+    </li>
+  </ul>
+</body>
