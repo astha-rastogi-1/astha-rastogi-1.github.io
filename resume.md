@@ -76,6 +76,25 @@ View Full Resume PDF: [Here](/resume.pdf)
 
   <div class="subheading-split">
     <div>
+      <p class="subheading-split-left-first">Exponentia AI</p>
+      <i>Associate Machine Learning Engineer</i>
+    </div>
+    <div style="text-align:right;">
+      <p class="subheading-split-right-first">Mumbai, India</p>
+      <i>10/2023 - Present</i>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Revolutionized data processing for LLMs, transforming Excel datasets into a queryable format for seamless integration and enhanced model accessibility.
+    </li>
+    <li>Driving a dynamic tech stack transition, orchestrating the migration of our pipeline to state-of-the-art technologies, showcasing proactive leadership in adopting cutting-edge solutions.
+    </li>
+    <li class="bold-skills-content"><b>Skills: </b> <i>Python, AWS Services, LangChain, Gradio, FastAPI, Databricks</i>
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
       <p class="subheading-split-left-first">Aalto University</p>
       <i>Full Stack Developer</i>
     </div>
@@ -295,14 +314,14 @@ View Full Resume PDF: [Here](/resume.pdf)
   <div class="subheading-split">
     <div>
       <p class="subheading-split-left-first">Frameworks</p>
-      Django, Flask, AngularJS, SQL, PyTorch
+      Django, Flask, AngularJS, SQL, PyTorch, FastAPI, LangChain
     </div>
   </div>
 
   <div class="subheading-split">
     <div>
       <p class="subheading-split-left-first">Libraries</p>
-      React, Keras, TensorFlow, NumPy, Pandas, Scikit-Learn, MatplotLib
+      React, Keras, TensorFlow, NumPy, Pandas, Scikit-Learn, MatplotLib, Gradio
     </div>
   </div>
 
@@ -310,7 +329,7 @@ View Full Resume PDF: [Here](/resume.pdf)
     <div style="text-align: left;">
       <p class="subheading-split-left-first">Concepts</p>
       Machine Learning, Neural Networks, Computer
-        Vision, Natural Language Processing, Front-end Development, Full-Stack Development
+        Vision, Natural Language Processing, Front-end Development, Full-Stack Development, LLMs
     </div>
   </div>
 
