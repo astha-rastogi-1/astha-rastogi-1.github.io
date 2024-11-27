@@ -57,6 +57,23 @@ View Full Resume PDF: [Here](/resume.pdf)
 <h1>Education</h1>
   <div class="subheading-split">
     <div>
+      <p class="subheading-split-left-first">Boston University</p>
+      <i>M.Sc. Artificial Intelligence</i>
+    </div>
+    <div style="text-align:right;">
+      <p class="subheading-split-right-first">Pilani, India</p>
+      <i>09/2024 - 05/2025</i>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Relevant Coursework: Principles of Machine Learning, Multimodal AI, Artificial General Intelligence, Image and Video Computing, Introduction to Natural Language Processing, Algorithmic Data Mining
+    </li>
+    <li>Current Projects: Explainable Stereotype Detection in Text, The NASA Airport Throughput Challenge
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
       <p class="subheading-split-left-first">Birla Institute of Technology and Science, Pilani</p>
       <i>B.E. Electronics and Instrumentation</i>
     </div>
@@ -81,7 +98,7 @@ View Full Resume PDF: [Here](/resume.pdf)
     </div>
     <div style="text-align:right;">
       <p class="subheading-split-right-first">Mumbai, India</p>
-      <i>10/2023 - Present</i>
+      <i>10/2023 - 06/2024</i>
     </div>
   </div>
   <ul class="content-list">
@@ -89,18 +106,18 @@ View Full Resume PDF: [Here](/resume.pdf)
     </li>
     <li>Driving a dynamic tech stack transition, orchestrating the migration of our pipeline to state-of-the-art technologies, showcasing proactive leadership in adopting cutting-edge solutions.
     </li>
-    <li class="bold-skills-content"><b>Skills: </b> <i>Python, AWS Services, LangChain, Gradio, FastAPI, Databricks</i>
+    <li class="bold-skills-content"><b>Skills: </b> <i>Python, AWS Services, LangChain, Gradio, FastAPI, Databricks, API Development, Vector Databases</i>
     </li>
   </ul>
 
   <div class="subheading-split">
     <div>
       <p class="subheading-split-left-first">Aalto University</p>
-      <i>Full Stack Developer</i>
+      <i>Founding Full Stack Developer</i>
     </div>
     <div style="text-align:right;">
       <p class="subheading-split-right-first">Helsinki, Finland</p>
-      <i>06/2022 - 04/2023</i>
+      <i>06/2022 - 09/2023</i>
     </div>
   </div>
   <ul class="content-list">
