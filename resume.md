@@ -61,7 +61,7 @@ View Full Resume PDF: [Here](/resume.pdf)
       <i>M.Sc. Artificial Intelligence</i>
     </div>
     <div style="text-align:right;">
-      <p class="subheading-split-right-first">Pilani, India</p>
+      <p class="subheading-split-right-first">Boston, MA, USA</p>
       <i>09/2024 - 05/2025</i>
     </div>
   </div>
