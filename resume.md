@@ -66,9 +66,10 @@ View Full Resume PDF: [Here](/resume.pdf)
     </div>
   </div>
   <ul class="content-list">
-    <li>Relevant Coursework: Principles of Machine Learning, Multimodal AI, Artificial General Intelligence, Image and Video Computing, Introduction to Natural Language Processing, Algorithmic Data Mining
+    <li><i>GPA:</i> 3.93/4.00</li>
+    <li><i>Relevant Coursework:</i> Principles of Machine Learning, Multimodal AI, Image and Video Computing, Introduction to Natural Language Processing, Computational Tools for Data Science, Deep Learning
     </li>
-    <li>Current Projects: Explainable Stereotype Detection in Text, The NASA Airport Throughput Challenge
+    <li><i>Relevant Projects:</i> Explainable Stereotype Detection in Text, NASA Airport Throughput Challenge, ISIC - SKin Cancer Detection using Multimodal AI
     </li>
   </ul>
 
@@ -84,9 +85,10 @@ View Full Resume PDF: [Here](/resume.pdf)
   </div>
   <ul class="content-list">
     <li>Graduated First Division</li>
-    <li>Relevant Coursework: Computer Programming, Discrete Mathematics, Machine Learning, Object Oriented Programming, Data Structures and Algorithms, Optimization,
+    <li><i>Relevant Coursework:</i> Computer Programming, Discrete Mathematics, Machine Learning, Object Oriented Programming, Data Structures and Algorithms, Optimization,
       Neural Networks and Fuzzy Logic, Digital Image Processing
     </li>
+    <li><i>Bachelor's Thesis:</i> Unsupervised Event Extraction from Unstructured Data for Carbon Calculation in Recipes</li>
   </ul>
 
 <h1>Work Experience</h1>
