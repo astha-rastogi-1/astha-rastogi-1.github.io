@@ -219,17 +219,11 @@ View Full Resume PDF: [Here](/resume.pdf)
   <ul class="content-list">
     <li>Supervisors: <a href="https://www.bits-pilani.ac.in/pilani/surekha-bhanot/">Prof. Surekha Bhanot</a>, <a href="https://personalpages.manchester.ac.uk/staff/riza.batista/">Dr. Riza Batista-Navarro</a>
     </li>
-    <li>Utilized Interactive Machine Learning and Machine
-        Reading Comprehension techniques to develop an
-        innovative model at the University of Manchester.
+    <li>Utilized Interactive Machine Learning and Machine Reading Comprehension to develop an innovative model for carbon emission calculation in recipes at the University of Manchester.
+    </li>    
+    <li>Created a system that extracts events from unstructured data using a semi-supervised approach through a combination of human-in-the-loop training and HDBScan clustering, generating machine-readable event templates without pre-existing annotations.
     </li>
-    <li>Created a system that extracts events from unstructured
-        online data using a semi-supervised approach, generating
-        machine-readable event templates without pre-existing
-        annotations.
-    </li>
-    <li>Trained the model to ask relevant questions, improving
-        its accuracy in structuring event information.
+    <li>Enhanced the system’s performance by training models, such as BERT and T5 transformers, to ask relevant questions and refine event details, incorporating POS tagging to improve accuracy.
     </li>
     <li>Inculcated strong research, problem-solving, and critical
         thinking skills through collaborative work with academic
