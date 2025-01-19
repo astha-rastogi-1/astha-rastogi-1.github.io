@@ -8,9 +8,15 @@ layout: page
     }
     h1 {
         color: #4a5044;
-        text-decoration: underline;
-        text-underline-offset: 10px
+        /* text-decoration: underline; */
+        /* text-underline-offset: 10px */
         /* border: 1px solid red; */
+    }
+    h2 {
+        color: #4a5044;
+        text-decoration: underline;
+        text-align: center;
+        /* text-underline-offset: 10px */
     }
     .subheading-split{
         display:flex;
@@ -64,8 +70,8 @@ layout: page
 
   <div class="subheading-split">
     <div>
-      <span><p class="subheading-split-left-first">Machine Learning Based Event Extraction from
-        Unstructured Data</p>
+      <span><h2 class="subheading-split-left-first">Machine Learning Based Event Extraction from
+        Unstructured Data</h2>
       <i>Bachelor's Thesis</i></span>
     </div>
   </div>
@@ -81,14 +87,6 @@ layout: page
     </div>
   </div>
   <p>This project explored the extraction of cooking-related events from unstructured data, such as online recipes, using advanced machine learning and natural language processing techniques. Recipes are a rich source of information, detailing food preparation steps and methods. The goal was to transform these unstructured texts into structured, machine-readable event templates with minimal reliance on annotated datasets. By combining clustering, interactive machine learning, and transformer-based models, the thesis delivered a robust system for semi-automated event detection.</p>
-  
-  <p>
-    The approach integrates:<br>
-    <b class="light-bold">Clustering Algorithms:</b> HDBScan for identifying patterns in unstructured recipe data.<br>
-    <b class="light-bold">Interactive Machine Learning:</b> Semi-supervised training with minimal human intervention.<br>
-    <b class="light-bold">Transformer Models:</b> Fine-tuned BERT and T5 for question generation, answering, and machine reading comprehension.<br>
-    <b class="light-bold">Linguistic Analysis:</b> Incorporation of POS tagging to improve system precision.
-  </p>
 
 <h4>Key Contributions:</h4>
 <ul class="content-list">
@@ -96,4 +94,31 @@ layout: page
     <li>Semi-Supervised Event Extraction: Designed a system that uses HDBScan clustering and human-in-the-loop training to extract events from unstructured data without pre-existing annotations.</li>
     <li>Transformer-Based Question Generation: Fine-tuned BERT and T5 models to generate relevant questions and refine event details. Incorporated POS tagging to improve accuracy in event detection.</li>
     <li>Research Excellence: Demonstrated strong problem-solving, critical thinking, and communication skills through collaborative work with academic mentors and experts. Enhanced teamwork and model design abilities throughout the project.</li>
+</ul>
+<hr>
+<br>
+<div class="subheading-split">
+    <div>
+      <span><h2 class="subheading-split-left-first">C-Former: A Novel Vision Transformer-Based Architecture for EEG Emotion Classification</h2></span>
+    </div>
+</div>
+<div class="multiple-img-container">
+    <div class="single-img-container">
+        <img src="images/cformer_full_architecture.png" alt="CFormer Full Architecture" height="200"/>
+        <p><i>Fig. Model Approach</i></p>
+    </div>
+    <div class="single-img-container">
+        <img src="images/Cformer-Model.png" alt="CFormer Block Architecture" height="200"/>
+        <p><i>Fig. CFormer Block Architecture</i></p>
+    </div>
+  </div>
+<p>This research introduced C-Former, a cutting-edge transformer-based architecture designed for emotion classification using EEG signals. Electroencephalography (EEG) is a non-invasive method of measuring the brain's electrical activity in response to stimuli and has numerous applications in clinical and research settings. The proposed model incorporates convolutional token embedding layers and a convolutional feature extractor to enhance the representation of spatial and temporal features in EEG data.</p>
+
+<p>The aim was to develop a robust and efficient method for emotion recognition using EEG signals. By leveraging the power of transformers, C-Former addresses challenges such as variations in data and the need for precise feature extraction, outperforming traditional models while maintaining competitive performance with state-of-the-art approaches.</p>
+
+<h4>Key Contributions:</h4>
+<ul class="content-list">
+<li><b class="light-bold">Transformer-Based Innovation:</b> C-Former combines convolutional layers for token embedding with transformer modules to capture both local and global features in EEG data.</li>
+<li><b class="light-bold">Benchmark Performance:</b> Experimental results on the SEED dataset demonstrate that C-Former achieves superior accuracy compared to previous models, while being more robust to variations in input data.</li>
+<li><b class="light-bold">First-of-Its-Kind Application: </b>To the best of our knowledge, this is the first work that employs transformers specifically for EEG-based emotion recognition.</li>
 </ul>
