@@ -90,10 +90,10 @@ layout: page
 
 <h4>Key Contributions:</h4>
 <ul class="content-list">
-    <li>Innovative Carbon Emission Model: Applied interactive machine learning and machine reading comprehension to create a model that calculates carbon emissions in recipes based on the extracted event templates</li>
-    <li>Semi-Supervised Event Extraction: Designed a system that uses HDBScan clustering and human-in-the-loop training to extract events from unstructured data without pre-existing annotations.</li>
-    <li>Transformer-Based Question Generation: Fine-tuned BERT and T5 models to generate relevant questions and refine event details. Incorporated POS tagging to improve accuracy in event detection.</li>
-    <li>Research Excellence: Demonstrated strong problem-solving, critical thinking, and communication skills through collaborative work with academic mentors and experts. Enhanced teamwork and model design abilities throughout the project.</li>
+    <li><b class="light-bold">Innovative Carbon Emission Model:</b> Applied interactive machine learning and machine reading comprehension to create a model that calculates carbon emissions in recipes based on the extracted event templates</li>
+    <li><b class="light-bold">Semi-Supervised Event Extraction:</b> Designed a system that uses HDBScan clustering and human-in-the-loop training to extract events from unstructured data without pre-existing annotations.</li>
+    <li><b class="light-bold">Transformer-Based Question Generation:</b> Fine-tuned BERT and T5 models to generate relevant questions and refine event details. Incorporated POS tagging to improve accuracy in event detection.</li>
+    <li><b class="light-bold">Research Excellence:</b> Demonstrated strong problem-solving, critical thinking, and communication skills through collaborative work with academic mentors and experts. Enhanced teamwork and model design abilities throughout the project.</li>
 </ul>
 <hr>
 <br>
