@@ -240,16 +240,53 @@ View Full Resume PDF: [Here](/resume.pdf)
     </div>
   </div>
   <ul class="content-list">
-    <li>Led a two-member team in creating a modified vision
-        transformer, classifying emotions using EEG signals.
-        Collaborated to design and implement a robust model
-        architecture, surpassing state-of-the-art performance.
+    <li>Developed "C-Former," a novel transformer-based architecture for EEG emotion classification, integrating convolutional token embedding layers and feature extractors to enhance spatial and temporal feature representation.
     </li>
-    <li>Acquired experience in conducting independent research,
-        designing experiments, and interpreting results in an
-        academic setting.
+    <li>Achieved state-of-the-art performance on the SEED benchmark dataset, demonstrating improved robustness to data variations and outperforming prior models in accuracy.</li>
+    <li>Conducted independent research to pioneer the first application of transformers for EEG-based emotion recognition, contributing to innovation in the intersection of deep learning and neuroscience.
     </li>
     <li><a href="https://github.com/astha-rastogi-1/C-former">Github</a>
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">Explainable Stereotype Detection in Text</p>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Evaluated the performance of SOTA transformers like BERT, RoBERTa, GPT-2, in detecting stereotypes in text.
+    </li>
+    <li>Analyzed model behavior on vague and ambiguous sentences to compare performance with human judgment.</li>
+    <li>Leveraged attention mechanisms to explain and validate misclassifications using explainability tools like SHAP and LIME.
+    </li>
+    <li>Identified significant impacts of dataset underrepresentation and tokenization artifacts on model predictions, highlighting areas for improvement in stereotype detection.
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">ISIC 2024 -  Skin Cancer Detection using Multimodal AI</p>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Designed a multi-modal classifier to classify skin lesions as malignant or benign using image data and tabular metadata.
+    </li>
+    <li>Addressed data imbalance by using a combination of data augmentation, SMOTE, and Stratified K-Fold Cross Validation.</li>
+    <li>Extracted image features using EfficientNet, fused them with engineered metadata features, and utilized a voting ensemble of LightGBM, XGBoost, and CatBoost to achieve 97% accuracy using AUC metrics.
+    </li>
+  </ul>
+
+  <div class="subheading-split">
+    <div>
+      <p class="subheading-split-left-first">NASA Airport Throughput Prediction Challenge</p>
+    </div>
+  </div>
+  <ul class="content-list">
+    <li>Designed a regression-based forecasting system to predict airport arrivals over 3-hour windows using historical throughput data, weather forecasts, and airport configurations.
+    </li>
+    <li>Engineered features like rolling averages of weather conditions and delay metrics to capture temporal dependencies and encapsulate key information from noisy, incomplete data.</li>
+    <li>Utilized advanced architectures such as Temporal Fusion Transformers and LSTMs to account for time-dependent features.
     </li>
   </ul>
 
