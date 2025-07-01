@@ -215,6 +215,13 @@ defaults:
       show_subscribe: true
       pageview: true
 
+defaults:
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      permalink: /:basename.html
+
 
 ## => Plugins
 ##############################

@@ -78,11 +78,11 @@ layout: page
   <p>Supervisors: <a href="https://www.bits-pilani.ac.in/pilani/surekha-bhanot/">Prof. Surekha Bhanot</a>, <a href="https://personalpages.manchester.ac.uk/staff/riza.batista/">Dr. Riza Batista-Navarro</a></p>
   <div class="multiple-img-container">
     <div class="single-img-container">
-        <img src="images/thesis_example.png" alt="Thesis Example" height="400"/>
+        <img src="../images/thesis_example.png" alt="Thesis Example" height="400"/>
         <p><i>Fig. Event Extraction Example</i></p>
     </div>
     <div class="single-img-container">
-        <img src="images/thesis_full_model.png" alt="Example Image" height="400"/>
+        <img src="../images/thesis_full_model.png" alt="Example Image" height="400"/>
         <p><i>Fig. Model Architecture</i></p>
     </div>
   </div>
@@ -104,11 +104,11 @@ layout: page
 </div>
 <div class="multiple-img-container">
     <div class="single-img-container">
-        <img src="images/cformer_full_architecture.png" alt="CFormer Full Architecture" height="200"/>
+        <img src="../images/cformer_full_architecture.png" alt="CFormer Full Architecture" height="200"/>
         <p><i>Fig. Model Approach</i></p>
     </div>
     <div class="single-img-container">
-        <img src="images/Cformer-Model.png" alt="CFormer Block Architecture" height="200"/>
+        <img src="../images/Cformer-Model.png" alt="CFormer Block Architecture" height="200"/>
         <p><i>Fig. CFormer Block Architecture</i></p>
     </div>
   </div>

@@ -15,6 +15,6 @@ key: page-about
     </div>
     <div></div>
     <div>
-        <img title="a title" alt="Alt text" src="/Astha_face.jpg" style="border-radius: 10%">
+        <img title="a title" alt="Alt text" src="../images/Astha_face.jpg" style="border-radius: 10%">
     </div>
 </div>
