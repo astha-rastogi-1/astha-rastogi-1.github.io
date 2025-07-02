@@ -1,7 +1,21 @@
 header:
   - title: About
-    url: /about.html
+    url: /index.html
   - title: Projects
     url: /projects.html
   - title: Resume
     url: /resume.html
+
+resume-sidebar:
+  - title: Education
+    url: "#education"
+  - title: Work Experience
+    url: "#experience"
+  - title: Projects
+    url: "#projects"
+  - title: Skills
+    url: "#skills"
+  - title: Certifications
+    url: "#certifications"
+  - title: Extra-Curriculars
+    url: "#extra-curriculars"

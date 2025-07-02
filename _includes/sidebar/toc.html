@@ -1,4 +1,21 @@
-{%- if page.sidebar.nav -%}
+<div class="sidebar-header">
+</div>
+{%- if page.sidebar.image or page.sidebar.headline or page.sidebar.links -%}
+  <div class="sidebar-profile">
+    {%- if page.sidebar.image -%}
+      <img src="{{ page.sidebar.image }}" alt="{{ page.sidebar.image_alt | default: 'Profile picture' }}" class="sidebar-profile__photo">
+    {%- endif -%}
+    {%- if page.sidebar.headline -%}
+      <div class="sidebar-profile__headline">{{ page.sidebar.headline }}</div>
+    {%- endif -%}
+    {%- if page.sidebar.headline -%}
+      <div class="sidebar-profile__description">{{ page.sidebar.description }}</div>
+    {%- endif -%}
+    {%- include author-links_landing.html author=site.author -%}
+  </div>
+{%- endif -%}
+
+<!-- {%- if page.sidebar.nav -%}
   <div class="sidebar-toc">
     {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
     {%- if _sidebar_nav -%}
@@ -20,6 +37,21 @@
         {%- endif -%}
       {%- endfor -%}
       </ul>
+    {%- endif -%}
+  </div>
+{%- endif -%} -->
+
+{%- if page.sidebar.nav -%}
+  <div class="sidebar-toc">
+    {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
+    {%- if _sidebar_nav -%}
+    <ul class="toc toc--navigator">
+      {%- for _item in _sidebar_nav -%}
+        <li class="toc-h2">
+          <a href="{{ _item.url }}">{{ _item.title }}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
     {%- endif -%}
   </div>
 {%- endif -%}

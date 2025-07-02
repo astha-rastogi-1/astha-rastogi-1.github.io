@@ -1,7 +1,12 @@
 ---
 layout: page
-# sidebar:
-#   nav: docs-en
+footer: false
+sidebar:
+  image: "../images/Astha_face.jpg"
+  image_alt: "Astha"
+  headline: "Astha Rastogi"
+  description: "AI/ML Engineer and Full Stack Engineer"
+  nav: resume-sidebar
 ---
 <style>
     body {
@@ -53,7 +58,7 @@ layout: page
 View Full Resume PDF: [Here](/resume.pdf)
 <body>
 
-
+<section id="education">
 <h1>Education</h1>
   <div class="subheading-split">
     <div>
@@ -90,7 +95,9 @@ View Full Resume PDF: [Here](/resume.pdf)
     </li>
     <li><i>Bachelor's Thesis:</i> Unsupervised Event Extraction from Unstructured Data for Carbon Calculation in Recipes</li>
   </ul>
+</section>
 
+<section id="experience">
 <h1>Work Experience</h1>
 
   <div class="subheading-split">
@@ -206,7 +213,9 @@ View Full Resume PDF: [Here](/resume.pdf)
     <li class="bold-skills-content"><b>Skills: </b> <i>HTML, CSS, JavaScript, AngularJS, NodeJS, MySQL</i>
     </li>
   </ul>
+</section>
 
+<section id="projects">
 <h1>Projects</h1>
 
   <div class="subheading-split">
@@ -350,8 +359,9 @@ View Full Resume PDF: [Here](/resume.pdf)
     <li>Employed Convolutional Neural Networks (CNNs) and visual attention maps to enhance the vehicle's decision-making process
     </li>
   </ul>
+</section>
 
-
+<section id="skills">
 <h1>Skills</h1>
   <div class="subheading-split">
     <div>
@@ -390,8 +400,10 @@ View Full Resume PDF: [Here](/resume.pdf)
         Detail, Adaptability, Time Management
     </div>
   </div>
+</section>
 
-<h1>Courses</h1>
+<section id="certifications">
+<h1>Certifications</h1>
   <ul class="courses-list">
     <li>
         <p class="subheading-split-left-first">
@@ -430,7 +442,9 @@ View Full Resume PDF: [Here](/resume.pdf)
         <i>Udemy</i>
     </li>
   </ul>
+</section>
 
+<section id="extra-curriculars">
 <h1>Extra-Curriculars</h1>
   <div class="subheading-split">
     <div>
@@ -468,4 +482,5 @@ View Full Resume PDF: [Here](/resume.pdf)
     <li>Assumed the role of teaching junior members how to effectively use PhotoShop, facilitating their growth and skill development.
     </li>
   </ul>
+</section>
 </body>
