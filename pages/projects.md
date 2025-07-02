@@ -5,7 +5,7 @@ sidebar:
   image: "../images/Astha_face.jpg"
   image_alt: "Astha"
   headline: "Astha Rastogi"
-  description: "AI/ML Engineer and Full Stack Engineer"
+  description: "AI/ML Engineer | Boston University | BITS Pilani"
 ---
 <style>
     body {
