@@ -92,7 +92,13 @@ sidebar:
         <p><i>Fig. Model Architecture</i></p>
     </div>
   </div>
-  <p>This project explored the extraction of cooking-related events from unstructured data, such as online recipes, using advanced machine learning and natural language processing techniques. Recipes are a rich source of information, detailing food preparation steps and methods. The goal was to transform these unstructured texts into structured, machine-readable event templates with minimal reliance on annotated datasets. By combining clustering, interactive machine learning, and transformer-based models, the thesis delivered a robust system for semi-automated event detection.</p>
+  <!-- <p>This project explored the extraction of cooking-related events from unstructured data, such as online recipes, using advanced machine learning and natural language processing techniques. Recipes are a rich source of information, detailing food preparation steps and methods. The goal was to transform these unstructured texts into structured, machine-readable event templates with minimal reliance on annotated datasets. By combining clustering, interactive machine learning, and transformer-based models, the thesis delivered a robust system for semi-automated event detection.</p> -->
+
+  <p>Have you ever wondered how many carbon credits you're consuming just by cooking a recipe you found online? Given the huge wave of sustainability washing over the UK, it was a given to do my thesis to help identify the amount of carbon emissions one causes when doing mundane tasks in their day-to day. An important factor in identifying the emissions is actually identifying the events that would result in these. For recipes, I chose to focus on the cooking methods (such as sauteeing, baking, boiling, etc.). Given that recipes are generally in pretty unstructured formats across the internet, my research focused around event extraction from unstructured data.
+  </p>
+  
+  <p>To do this, I used a combination of human-in-the-loop learning and HDBScan clustering to identify common events in recipes, then used a combination of fine-tuned transformers (Siamese BERT, T5) to generate relevant questions the model could ask itself to correctly identify event details such as what cooking event, how long for, at what temperature, etc. This was then integrated into API's for a chrome extension that could estimate the carbon credits consumed during cooking.
+  </p>
 
 <h4>Key Contributions:</h4>
 <ul class="content-list">
