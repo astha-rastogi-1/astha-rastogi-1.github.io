@@ -21,6 +21,8 @@ resume-sidebar:
     url: "#extra-curriculars"
 
 projects-sidebar:
+  - title: VLN Vagueness Analysis
+    url: "#vln"
   - title: Bachelor's Thesis
     url: "#event-extraction-from-unstructured-data"
   - title: C-Former

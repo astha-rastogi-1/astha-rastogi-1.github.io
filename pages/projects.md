@@ -74,31 +74,63 @@ sidebar:
 </style>
 <!-- ### Projects -->
 <h1>Projects</h1>
-  <section id="event-extraction-from-unstructured-data">
-  <div class="subheading-split">
-    <div>
-      <span><h2 class="subheading-split-left-first">Carbon Credit Calculation using Event Extraction from Unstructured Data</h2>
-      <i>Bachelor's Thesis</i></span>
-    </div>
-  </div>
-  <p>Supervisors: <a href="https://www.bits-pilani.ac.in/pilani/surekha-bhanot/">Prof. Surekha Bhanot</a>, <a href="https://personalpages.manchester.ac.uk/staff/riza.batista/">Dr. Riza Batista-Navarro</a></p>
-  <div class="multiple-img-container">
-    <div class="single-img-container">
-        <img src="../images/thesis_example.png" alt="Thesis Example" height="400"/>
-        <p><i>Fig. Event Extraction Example</i></p>
-    </div>
-    <div class="single-img-container">
-        <img src="../images/thesis_full_model.png" alt="Example Image" height="400"/>
-        <p><i>Fig. Model Architecture</i></p>
-    </div>
-  </div>
-  <!-- <p>This project explored the extraction of cooking-related events from unstructured data, such as online recipes, using advanced machine learning and natural language processing techniques. Recipes are a rich source of information, detailing food preparation steps and methods. The goal was to transform these unstructured texts into structured, machine-readable event templates with minimal reliance on annotated datasets. By combining clustering, interactive machine learning, and transformer-based models, the thesis delivered a robust system for semi-automated event detection.</p> -->
 
-  <p>Have you ever wondered how many carbon credits you're consuming just by cooking a recipe you found online? Given the huge wave of sustainability washing over the UK, it was a given to do my thesis to help identify the amount of carbon emissions one causes when doing mundane tasks in their day-to day. An important factor in identifying the emissions is actually identifying the events that would result in these. For recipes, I chose to focus on the cooking methods (such as sauteeing, baking, boiling, etc.). Given that recipes are generally in pretty unstructured formats across the internet, my research focused around event extraction from unstructured data.
-  </p>
-  
-  <p>To do this, I used a combination of human-in-the-loop learning and HDBScan clustering to identify common events in recipes, then used a combination of fine-tuned transformers (Siamese BERT, T5) to generate relevant questions the model could ask itself to correctly identify event details such as what cooking event, how long for, at what temperature, etc. This was then integrated into API's for a chrome extension that could estimate the carbon credits consumed during cooking.
-  </p>
+<section id="vln">
+<div class="subheading-split">
+<div>
+    <span><h2 class="subheading-split-left-first">Instruction Vagueness Analysis for Vision Language Navigation Models</h2></span>
+</div>
+</div>
+<p>Supervisors: <a href="https://www.bu.edu/cs/profiles/bplum/">Prof. Bryan Plummer</a></p>
+<div class="single-img-container">
+    <img src="../images/vln_flowchart.png" alt="Workflow" height="300"/>
+    <p><i>Fig. Workflow</i></p>
+</div>
+
+
+<p>Ever told a robot “just go forward” and hoped for the best? Yeah, it doesn’t go well. In Vision-and-Language Navigation (VLN), vague human instructions tank model performance. To fix that, I built a dual framework: Speciteller scores how specific an instruction is, while GPT-4o-mini checks vagueness in context using the environment.</p>
+
+<p>We ran this across ALFRED and CHORES datasets on SPOC, MOCA, and Episodic Transformers. The takeaway? Specific instructions = higher success. End-to-end models with memory (like Episodic Transformers) handle ambiguity best, while others need clear directions.
+</p>
+<h4>Key Contributions:</h4>
+<ul class="content-list">
+    <li><b class="light-bold">Dual Vagueness Framework:</b> Combined Speciteller regression with GPT-4o-mini classification to capture both lexical and contextual vagueness in navigation instructions.</li>
+    <li><b class="light-bold">Large-Scale Analysis:</b> Evaluated vagueness impact across ALFRED and CHORES datasets on SPOC, MOCA, and Episodic Transformers.</li>
+    <li><b class="light-bold">Architectural Insights:</b> Showed that intermediate fusion + memory architectures are more robust against vague instructions, while late-fusion models struggle.</li>
+    <li><b class="light-bold">Practical Strategies:</b> Proposed vagueness-aware losses, data augmentation with paraphrasing, and adaptive attention controllers to make agents smarter at handling ambiguous commands.</li>
+</ul>
+</section>
+<br/>
+<hr>
+<br/>
+
+
+
+<section id="event-extraction-from-unstructured-data">
+<div class="subheading-split">
+<div>
+    <span><h2 class="subheading-split-left-first">Carbon Credit Calculation using Event Extraction from Unstructured Data</h2>
+    <i>Bachelor's Thesis</i></span>
+</div>
+</div>
+<p>Supervisors: <a href="https://www.bits-pilani.ac.in/pilani/surekha-bhanot/">Prof. Surekha Bhanot</a>, <a href="https://personalpages.manchester.ac.uk/staff/riza.batista/">Dr. Riza Batista-Navarro</a></p>
+<div class="multiple-img-container">
+<div class="single-img-container">
+    <img src="../images/thesis_example.png" alt="Thesis Example" height="400"/>
+    <p><i>Fig. Event Extraction Example</i></p>
+</div>
+<div class="single-img-container">
+    <img src="../images/thesis_full_model.png" alt="Example Image" height="400"/>
+    <p><i>Fig. Model Architecture</i></p>
+</div>
+</div>
+<!-- <p>This project explored the extraction of cooking-related events from unstructured data, such as online recipes, using advanced machine learning and natural language processing techniques. Recipes are a rich source of information, detailing food preparation steps and methods. The goal was to transform these unstructured texts into structured, machine-readable event templates with minimal reliance on annotated datasets. By combining clustering, interactive machine learning, and transformer-based models, the thesis delivered a robust system for semi-automated event detection.</p> -->
+
+<p>Have you ever wondered how many carbon credits you're consuming just by cooking a recipe you found online? Given the huge wave of sustainability washing over the UK, it was a given to do my thesis to help identify the amount of carbon emissions one causes when doing mundane tasks in their day-to day. An important factor in identifying the emissions is actually identifying the events that would result in these. For recipes, I chose to focus on the cooking methods (such as sauteeing, baking, boiling, etc.). Given that recipes are generally in pretty unstructured formats across the internet, my research focused around event extraction from unstructured data.
+</p>
+
+<p>To do this, I used a combination of human-in-the-loop learning and HDBScan clustering to identify common events in recipes, then used a combination of fine-tuned transformers (Siamese BERT, T5) to generate relevant questions the model could ask itself to correctly identify event details such as what cooking event, how long for, at what temperature, etc. This was then integrated into API's for a chrome extension that could estimate the carbon credits consumed during cooking.
+</p>
 
 <h4>Key Contributions:</h4>
 <ul class="content-list">
@@ -108,8 +140,10 @@ sidebar:
     <li><b class="light-bold">Research Excellence:</b> Demonstrated strong problem-solving, critical thinking, and communication skills through collaborative work with academic mentors and experts. Enhanced teamwork and model design abilities throughout the project.</li>
 </ul>
 </section>
+<br/>
 <hr>
 <br>
+
 <section id="c-former">
 <div class="subheading-split">
     <div>
