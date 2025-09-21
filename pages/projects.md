@@ -6,6 +6,7 @@ sidebar:
   image_alt: "Astha"
   headline: "Astha Rastogi"
   description: "AI/ML Engineer | Boston University | BITS Pilani"
+  nav: projects-sidebar
 ---
 <style>
     body {
@@ -73,11 +74,10 @@ sidebar:
 </style>
 <!-- ### Projects -->
 <h1>Projects</h1>
-
+  <section id="event-extraction-from-unstructured-data">
   <div class="subheading-split">
     <div>
-      <span><h2 class="subheading-split-left-first">Machine Learning Based Event Extraction from
-        Unstructured Data</h2>
+      <span><h2 class="subheading-split-left-first">Carbon Credit Calculation using Event Extraction from Unstructured Data</h2>
       <i>Bachelor's Thesis</i></span>
     </div>
   </div>
@@ -107,8 +107,10 @@ sidebar:
     <li><b class="light-bold">Transformer-Based Question Generation:</b> Fine-tuned BERT and T5 models to generate relevant questions and refine event details. Incorporated POS tagging to improve accuracy in event detection.</li>
     <li><b class="light-bold">Research Excellence:</b> Demonstrated strong problem-solving, critical thinking, and communication skills through collaborative work with academic mentors and experts. Enhanced teamwork and model design abilities throughout the project.</li>
 </ul>
+</section>
 <hr>
 <br>
+<section id="c-former">
 <div class="subheading-split">
     <div>
       <span><h2 class="subheading-split-left-first">C-Former: A Novel Vision Transformer-Based Architecture for EEG Emotion Classification</h2></span>

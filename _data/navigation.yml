@@ -19,3 +19,9 @@ resume-sidebar:
     url: "#certifications"
   - title: Extra-Curriculars
     url: "#extra-curriculars"
+
+projects-sidebar:
+  - title: Bachelor's Thesis
+    url: "#event-extraction-from-unstructured-data"
+  - title: C-Former
+    url: "#c-former"
